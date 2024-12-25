@@ -8,7 +8,6 @@ Console.WriteLine("function 1");
 Console.WriteLine("eneter 2 number :");
 double x =Convert.ToDouble(Console.ReadLine());
 double y =Convert.ToDouble(Console.ReadLine());
-class sum = new class1();
 Console.WriteLine($"sum: {add.add(x, y)} ");
 
 
@@ -16,11 +15,11 @@ Console.WriteLine($"sum: {add.add(x, y)} ");
 Console.WriteLine("-------------------");
 
 Console.WriteLine("function2 ");
-Console.WriteLine( "enter 3 numbers"):;
+Console.WriteLine( "enter 3 numbers");
 double a = Convert.ToDouble(Console.ReadLine());
 double b = Convert.ToDouble(Console.ReadLine());
 double c = Convert.ToDouble(Console.ReadLine());
-Console.WriteLine($"sum: {sum.add(a,b,c)} ");
+Console.WriteLine($"sum: {add.add(a,b,c)} ");
 
 Console.WriteLine("--------------------");
 
